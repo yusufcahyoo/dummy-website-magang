@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user/slims/perpus/update', function (
+Route::middleware('auth:sanctum')->get('/user/slims/perpus/update/llll', function (
     Request $request
 ) {
     return $request->user();
