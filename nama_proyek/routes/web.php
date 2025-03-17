@@ -24,3 +24,4 @@ Route::get('/register', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
