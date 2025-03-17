@@ -3,79 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Login</title>
-    <style>
-        body {
-            background: linear-gradient(to right, #005F56, #007066); /* Warna hijau Tiga Serangkai */
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .card {
-            border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            background: white;
-            padding: 30px;
-            width: 100%;
-            max-width: 400px;
-        }
-        .logo-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-        .logo {
-            max-width: 120px; /* Ukuran logo */
-        }
-        .btn-custom {
-            background-color: #007066; /* Warna utama */
-            border: none;
-            color: white;
-        }
-        .btn-custom:hover {
-            background-color: #005F56; /* Warna lebih gelap saat hover */
-        }
-        .text-center a {
-            color: #007066;
-            text-decoration: none;
-        }
-        .text-center a:hover {
-            text-decoration: underline;
-        }
-        .form-label {
-            text-align: left;
-            display: block;
-            font-weight: bold;
-        }
-    </style>
 </head>
-<body>
-
-    <div class="card">
-        <div class="logo-container">
-            <img src="{{ asset('logoperpuskita.png') }}" alt="Logo" class="logo">
+<body class="flex justify-center items-center min-h-screen bg-gradient-to-r from-[#005F56] to-[#007066]">
+    <div class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md">
+        <div class="flex justify-center mb-4">
+            <img src="{{ asset('logoperpuskita.png') }}" alt="Logo" class="w-32">
         </div>
-        <h3 class="text-center mb-3">Selamat Datang</h3>
-
+        <h3 class="text-center text-2xl font-semibold text-gray-700 mb-4">Selamat Datang</h3>
+        
         <form>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Masukkan email">
+            <div class="mb-4">
+                <label for="username" class="block text-gray-700 font-bold">Username</label>
+                <input type="text" id="username" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#007066] outline-none" placeholder="Masukkan username">
             </div>
-
-            <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Masukkan password">
+            
+            <div class="mb-4">
+                <label for="password" class="block text-gray-700 font-bold">Password</label>
+                <input type="password" id="password" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#007066] outline-none" placeholder="Masukkan password">
             </div>
-
-            <button type="submit" class="btn btn-custom w-100">Login</button>
+            
+            <button type="submit" class="w-full bg-[#007066] text-white py-2 rounded-lg hover:bg-[#005F56] transition">Login</button>
         </form>
-
-        <p class="text-center mt-3">Belum punya akun? <a href="#">Registrasi</a></p>
+        
+        <p class="text-center text-gray-600 mt-4">Belum punya akun? <a href="#" class="text-[#007066] hover:underline">Registrasi</a></p>
     </div>
-
 </body>
 </html>
