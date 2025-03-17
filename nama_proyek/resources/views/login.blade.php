@@ -27,7 +27,7 @@
             <button type="submit" class="w-full bg-[#007066] text-white py-2 rounded-lg hover:bg-[#005F56] transition">Login</button>
         </form>
         
-        <p class="text-center text-gray-600 mt-4">Belum punya akun? <a href="#" class="text-[#007066] hover:underline">Registrasi</a></p>
+        <p class="text-center text-gray-600 mt-4">Belum punya akun? <a href="register" class="text-[#007066] hover:underline">Registrasi</a></p>
     </div>
 </body>
 </html>
