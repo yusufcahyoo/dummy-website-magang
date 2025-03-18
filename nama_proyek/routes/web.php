@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,7 +22,18 @@ Route::get('/register', function () {
     return view('register');
 });
 
+Route::get('/home', function () {
+    return view('home');  
+});
+
+Route::post('/logout', function () {
+    Auth::logout();
+    return redirect('/'); 
+})->name('logout');
+
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
+
 
