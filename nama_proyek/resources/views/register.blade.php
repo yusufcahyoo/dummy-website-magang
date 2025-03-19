@@ -13,27 +13,31 @@
             <img src="{{ asset('logoperpuskita.png') }}" alt="Logo" class="w-32">
         </div>
         <h3 class="text-center text-3xl font-semibold mb-6 text-gray-800">Daftar Akun</h3>
-        <form>
+
+
+
+        <form action="{{ route('register') }}" method="POST">
+            @csrf
             <div class="mb-4">
                 <label for="username" class="block text-gray-700 font-medium">Username</label>
-                <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 transition-transform focus:scale-105" type="text" name="username" id="username" placeholder="Masukkan username">
+                <input class="w-full px-4 py-2 border rounded-lg" type="text" name="name" id="name" required>
             </div>
             <div class="mb-4">
                 <label for="email" class="block text-gray-700 font-medium">Email</label>
-                <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 transition-transform focus:scale-105" type="email" name="email" id="email" placeholder="Masukkan email">
+                <input class="w-full px-4 py-2 border rounded-lg" type="email" name="email" id="email" required>
             </div>
             <div class="mb-4 relative">
                 <label for="password" class="block text-gray-700 font-medium">Password</label>
                 <div class="relative">
-                    <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 transition-transform focus:scale-105 pr-10" type="password" name="password" id="password" placeholder="Masukkan password">
-                    <span id="togglePassword" class="absolute inset-y-0 right-3 flex items-center cursor-pointer text-gray-600">
+                    <input class="w-full px-4 py-2 border rounded-lg pr-10" type="password" name="password" id="password" required>
+                    <span id="togglePassword" class="absolute inset-y-0 right-3 flex items-center cursor-pointer">
                         <i class="fa-solid fa-eye"></i>
                     </span>
                 </div>
             </div>
-            <button type="submit" class="w-full bg-teal-700 text-white py-3 rounded-lg hover:bg-teal-800 transition-transform hover:scale-105 active:scale-95 font-semibold text-lg">Daftar</button>
+            <button type="submit" class="w-full bg-teal-700 text-white py-3 rounded-lg">Daftar</button>
         </form>
-        
+
         <p class="text-center text-gray-600 mt-4">
             Sudah punya akun? <a href="/" class="text-teal-700 hover:underline">Masuk</a>
         </p>
@@ -57,22 +61,6 @@
             icon.classList.add("fa-eye");
         }
     });
-
-    
-    document.querySelector("form").addEventListener("submit", function (event) {
-        event.preventDefault(); 
-
-        
-        const formBox = document.querySelector(".bg-white");
-
-        
-        formBox.classList.add("opacity-0", "-translate-y-5");
-
-        
-        setTimeout(() => {
-            window.location.href = "/"; 
-        }, 500); 
-    });
-</script>
+    </script>
 </body>
 </html>
