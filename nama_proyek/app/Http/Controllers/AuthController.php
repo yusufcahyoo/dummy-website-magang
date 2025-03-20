@@ -92,7 +92,7 @@ class AuthController extends Controller
             DB::table('users')->where('id', $user->id)->update(['remember_token' => null]);
 
             Auth::logout();
-            return redirect('/login');
+      //      return redirect('/login');
 
             return response()->json(['message' => 'Logout berhasil!']);
         }
