@@ -91,12 +91,15 @@ class AuthController extends Controller
             // Hapus token hanya jika sebelumnya disimpan
             DB::table('users')->where('id', $user->id)->update(['remember_token' => null]);
 
-            Auth::logout();
+
+            if (Auth::logout()) {
+                return redirect('/login');
+            }
       //      return redirect('/login');
 
-            return response()->json(['message' => 'Logout berhasil!']);
+        //    return response()->json(['message' => 'Logout berhasil!']);
         }
-        return response()->json(['error' => 'Unauthorized'], 401);
+       // return response()->json(['error' => 'Unauthorized'], 401);
     }
 
     public function checkToken(Request $request)
