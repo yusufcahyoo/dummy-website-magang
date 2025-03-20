@@ -57,6 +57,12 @@
                 @enderror
             </div>
 
+            <div class="mb-4">
+                <label class="flex items-center text-gray-700">
+                    <input type="checkbox" name="remember" class="mr-2"> Remember Me
+                </label>
+            </div>
+
             <div class="flex justify-end mb-4">
                 <a href="/forgot-password" class="text-[#007066] text-sm hover:underline hover:opacity-70 transition-opacity">Lupa Password?</a>
             </div>
