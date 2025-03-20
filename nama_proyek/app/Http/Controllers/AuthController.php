@@ -95,7 +95,7 @@ class AuthController extends Controller
             if (Auth::logout()) {
                 return redirect('/login');
             }
-      //      return redirect('/login');
+          return redirect('/login');
 
         //    return response()->json(['message' => 'Logout berhasil!']);
         }
