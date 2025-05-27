@@ -1,24 +1,28 @@
-Konfigurasi
-====================================================================
-php versi 8.1
-
-laravel v10
-
+		   ~	    KONFIGURASI        ~
 ====================================================================
 
-cut folder slims di nama_proyek , dan keluarkan
+PHP      v8.1
 
-letakkan didalam folder dummy-website-magang,
+Laravel  v10
 
-struktur folder jika menjalankan di xampp
+====================================================================
+
+Struktur Database
+
+sso_db.sql 	 (  Frontend )
+perpustakaan.sql (  Backend  )
+
+====================================================================
+
+stuktur folder :
 
 C:\xampp\htdocs\SS\dummy-website-magang\nama_proyek
 
-C:\xampp\htdocs\SS\dummy-website-magang\slims
+C:\xampp\htdocs\SS\slims
 
 ====================================================================
 
-Panduan menggunakan 
+Set up laravel ( Frontend )
 
 1. git clone "URL"
 2. Masuk ke dalam folder
@@ -26,5 +30,11 @@ Panduan menggunakan
 4. cp .env.example .env
 5. php artisan key:generate
 6. php artisan serve
+
+====================================================================
+
+
+Folder slims bisa dikeluarkan dari root. karena itu slims sebagai 
+beckend nya ATAU BISA DOWNLOAD DI WEBSITE SLIMS NYA 
 
 ====================================================================
