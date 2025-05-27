@@ -1,0 +1,216 @@
+Array
+(
+    [token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOm51bGwsInN1YiI6Niwicm9sZSI6ImFkbWluIiwibmFtZSI6ImZycyIsImVtYWlsIjoiZnJzQGdtYWlsLmNvbSIsImlhdCI6MTc0ODI0MjEwMywiZXhwIjoxNzQ4MjQ1NzAzfQ.ceyC515MEgACiXe4bWuyvHiAuPT82eLNXA7zC3Yb7DA_51Um_afQfaIwBlKhoPD5Wjwtyi7W9m4fx1tGyf9lXvCfUWFHo5_KY-c-7keQmh7kQkxN0yPcDWdZLd-rPUUs7mtLf_2E18X86_iYmptC8cJ1U-rJ1z2QI01Z9noMyOgf60plv3W8KoD9JrlCkKWy8PAJ69wgbDjt4M_ZtvLFfMKaV4ic-DjHWHRIwcMzds9RTp88B8Hqdp43qTSfmVqxHImXW9pWgV9VcDAlszqD4JVRn7t9uujjSCEvPbAlgzDG7PdQGLIUDzVOaxRbgkOMXnTlEb8YzxbqPXnuEcOElQ
+    [uid] => 4
+    [uname] => frs
+    [realname] => faras
+    [email] => frs@gmail.com
+    [user_type] => 1
+    [log_in] => 1
+    [logintime] => 1748242116
+    [groups] => Array
+        (
+            [0] => 2
+        )
+
+    [modules] => Array
+        (
+            [0] => bibliography
+            [1] => circulation
+            [2] => membership
+            [3] => master_file
+            [4] => stock_take
+            [5] => system
+            [6] => reporting
+            [7] => serial_control
+        )
+
+    [priv] => Array
+        (
+            [bibliography] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                            [0] => 11f21c0086e33e02345ec5fc6621d832
+                            [1] => 927a72388bcccea97a140956e0e5d53c
+                            [2] => 345459752e874ad4ae4736613090b642
+                            [3] => 0c8120dd641c0a6af5a67fb577f0a349
+                            [4] => 675aa15e179f1ed9d5fd4c2a0d8033fc
+                            [5] => d5c90d5fd3afa43fd832af3998bb9762
+                            [6] => 223775e15390c6b54cc9987a0abd2e43
+                            [7] => 4e39acaff49df9e754ce6c0b403e81a7
+                            [8] => 1c14b7caecb500f26c4fdb668e839ae0
+                            [9] => a60af9328c43e79ef672683865d1eacd
+                            [10] => b4af07388bd94dfdf21b5247b93eda15
+                            [11] => faed74a41060fa52b63a5f90e7450415
+                            [12] => 4da22862cb6cdec79b9d2bd526e0d137
+                            [13] => 76005694e84ffe0cd86c6b23a751f694
+                            [14] => a639a94c7baabd8f23ea00e35a88ce39
+                            [15] => da2948b450f42b21b7e79dff7d05c4c2
+                        )
+
+                )
+
+            [circulation] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                            [0] => 51b7d6ca40fd0bc5149c455d01fa39bd
+                            [1] => dc4430a3da77758883bd476478f152a6
+                            [2] => 51afbb48d6317590a7b91559ae0632e5
+                            [3] => 8f3cd4930081d21127f98463eeb665f3
+                            [4] => 80e8c397cbb72fe25a676d89ba65085e
+                            [5] => 6e67894d794e013f9dd80f4ccd5a1bba
+                            [6] => 09a2491e926e43edd6fa6d704593b6d1
+                        )
+
+                )
+
+            [membership] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                            [0] => c2ab11d5f98574c958d09d837e90268c
+                            [1] => b387d1e05c5e4051294af48893b89dc5
+                            [2] => 101be8876a6589121fa37c9b21927df9
+                            [3] => 029dc82e368a794386ab9f1beb485253
+                            [4] => e3e276006152eb08164ebd9c33cfdde2
+                            [5] => 355f35b83be86086992b9bff77adfa39
+                        )
+
+                )
+
+            [master_file] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                            [0] => c7d30b00b4409e373ced48d1d934d57f
+                            [1] => 7306bce45af3dea7b308725886b88b10
+                            [2] => d171286f98ace8f3651e819e65472c74
+                            [3] => 53a3b1dc4996619c25156d4c68f12ee0
+                            [4] => b3afcd0641e14956276616a1a8250a11
+                            [5] => 8679a784cfd120da623fac03f5a17611
+                            [6] => 595ab7254a19c24e9b850a972fe3696c
+                            [7] => fac33553bb26ce883e4c4c817bbc6346
+                            [8] => 4af26c96e6719db5c05b47fca4ed3be0
+                            [9] => 199d4cf623504c625d067d177fec5366
+                            [10] => 3885d32ab4ce5e372cc8d98681f56d4d
+                            [11] => 7c6208b68befa88cd78cdb5829432426
+                            [12] => 6b9e7de85193ed1973b686584f9db0ed
+                            [13] => 4943311c08cdad7e12992b3532cd679b
+                            [14] => 72f9f84cb3b8a312968a0e131b0dfde6
+                            [15] => ada759bb728c0cab7e023c73e9505988
+                            [16] => 1c4aa5f7ffed0b516242931e915f738a
+                            [17] => 287fc0e157252455f53f1dea8a8fabe1
+                            [18] => 9f5276d0a7b16a956bd2003ff8ebf924
+                            [19] => ea82940e5e891f0fa379679c1a252561
+                            [20] => ac11d08bd7bc458b1630d265a20b12b0
+                            [21] => b5f5f2382e3c195707825cf4beb8a60a
+                            [22] => 92553078ecae70a61f5f7bb26dc30c1c
+                        )
+
+                )
+
+            [stock_take] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                            [0] => 2aa84d15ddb826bfb10e6f21a5b26b03
+                            [1] => ed32732971a97f300521be92c26ec091
+                            [2] => c303d982e676ebc865bb3bc3d32b7d80
+                            [3] => 74d94a1157538d8ee31fa8fb9582e2ec
+                            [4] => ef9d80fd499d3ae23098e87d9feaefa0
+                            [5] => 1c0c0bda58713fb2f0f6d059d6e0d5b0
+                            [6] => 98e75f6c14e09b0b54392c02d96d5be0
+                            [7] => fcf428c158c05477c8d1da4cad6fb9bc
+                            [8] => d0161813ca094ca5d20172dfa585fe03
+                        )
+
+                )
+
+            [system] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                            [0] => 78e291345d23cece3417fd9004c9fd95
+                            [1] => 6768f645f074bfe79da39e75b7956add
+                            [2] => a3a598bc5e5d33c0ae7f3a71c1902f7d
+                            [3] => f022d91a02e84baa6ec6cea627ab4acb
+                            [4] => 30b32f14317cfd1323f52aa62b05cd75
+                            [5] => 38e686f1f5eec431cbd8d4055b76670b
+                            [6] => 23dfe81684a98f0cc891c0efa904be3a
+                            [7] => f25433a6ead639944b33b0246c88e0aa
+                            [8] => 4a3e72da744c0f7f06529de944e9d96c
+                            [9] => cb277543f133b450e904dea910d3dc41
+                            [10] => a9958ee6984280eb22e45a11c1109e48
+                            [11] => 3b9771534f1a2651f1726ed1e07ab4fe
+                            [12] => dd9fb919e96540f643cd75bbfed2428e
+                            [13] => 60bd34f0e49ac36f0c7c10638ecc4e28
+                            [14] => f30264017fdd8e20b07cf5d4bf35e2d2
+                            [15] => 0092c81c6474c5c9c8bd1a571e79f7e4
+                            [16] => bb4034a8ec41158c9f420bb6146f3127
+                            [17] => db1791cc0d7d8c97243de73598588afa
+                            [18] => 7fd8d8725e8c6ab9ae994c89a7b4536a
+                            [19] => 27c4181b709fae79aa9583b5acc5bcf6
+                        )
+
+                )
+
+            [reporting] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                            [0] => 386139eadc9d3796cb33f6802f4c424b
+                            [1] => f2648d9f97a29298e5d507a206590042
+                            [2] => cc934f27d387a372c73353db6ee12018
+                            [3] => 7b84f87849eb586a5e6e2aa4d726de94
+                            [4] => 26164cb3bb80456204a8e5297342c2bd
+                            [5] => 6b81a82497a336aa7dc575de6e4e457d
+                            [6] => 2ec5a35dfb55116f686c800d580ea8b3
+                            [7] => d3f37fba19f8b8dd626b2f4de5cd9975
+                            [8] => 85dfa81bf17fa624bf139309c04a1816
+                            [9] => d4e849d0fb2c74c47cff8e82ea46130b
+                            [10] => 8f3cd4930081d21127f98463eeb665f3
+                            [11] => 80e8c397cbb72fe25a676d89ba65085e
+                            [12] => 6e67894d794e013f9dd80f4ccd5a1bba
+                            [13] => 00788310d09fc54144be43c824ed57d4
+                            [14] => 82d5db9c1432179b066c9ffbde619fa7
+                            [15] => 86ae5a00f749ac4e03a8f9669035e33f
+                            [16] => 167c9dbec058b8efde1846049580b832
+                            [17] => 66adbbc11c795617a1e9bf4bf68bf243
+                            [18] => c046fe67b09e0d0819000208e9129528
+                            [19] => 85eca64f2ca9b39ca4a08bb6270e59cb
+                            [20] => a2dcab22ed2df2e0c7061d9443d3e7b3
+                        )
+
+                )
+
+            [serial_control] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                            [0] => adc94fdfba1b04f4f981e88f053a5934
+                        )
+
+                )
+
+        )
+
+    [checksum] => 7a5d808256c001c32851e4601f18b556
+)
