@@ -1,0 +1,19 @@
+Konfigurasi
+====================================================================
+php versi 8.1
+
+laravel v10
+
+====================================================================
+
+cut folder slims di nama_proyek , dan keluarkan
+
+letakkan didalam folder dummy-website-magang,
+
+struktur folder jika menjalankan di xampp
+
+C:\xampp\htdocs\SS\dummy-website-magang\nama_proyek
+
+C:\xampp\htdocs\SS\dummy-website-magang\slims
+
+====================================================================
