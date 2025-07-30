@@ -1,0 +1,113 @@
+Array
+(
+    [token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0Iiwic3ViIjoxMSwicm9sZSI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTMzNDM5NTEsImV4cCI6MTc1MzM0NzU1MX0.awQKf6NbRc40Pvy2NKOtgeBvAZc82l2xFgSPd9bAj8yOVubOea-3mc2qoqrsSSCw6GVWfbI8FUcc1Sc5XFfHSnTzNCqHHJmPAoRS1nv6QuYRjLvp7elK-co-MGYRJBHYeRy2HDnSouV-dzBllGEm7MKOChVTTAEI3YcG4ro8fmIhTrxd5pJRJREaUKfTrDgOBl2cbSC3igIHcWRzy4XjkJHUzRpvwBIVDO6tDYFomua64wYLvGcfaOSph2quqpQbWJJuNKiJPYJlpeGS-XDrB6aBOBwgGAOTO3SePeyXohtCNKyFJFFhijfZ-rV14RB_UyRax4bJ6b7bqxnXZV1URg
+    [uid] => 1
+    [uname] => admin
+    [realname] => Admin
+    [email] => 
+    [user_type] => 1
+    [log_in] => 1
+    [logintime] => 1753344396
+    [groups] => Array
+        (
+            [0] => 1
+        )
+
+    [modules] => Array
+        (
+            [0] => bibliography
+            [1] => circulation
+            [2] => membership
+            [3] => master_file
+            [4] => stock_take
+            [5] => system
+            [6] => reporting
+            [7] => serial_control
+        )
+
+    [priv] => Array
+        (
+            [bibliography] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                        )
+
+                )
+
+            [circulation] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                        )
+
+                )
+
+            [membership] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                        )
+
+                )
+
+            [master_file] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                        )
+
+                )
+
+            [stock_take] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                        )
+
+                )
+
+            [system] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                        )
+
+                )
+
+            [reporting] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                        )
+
+                )
+
+            [serial_control] => Array
+                (
+                    [r] => 1
+                    [w] => 1
+                    [menus] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [checksum] => 7a5d808256c001c32851e4601f18b556
+)
